@@ -12,6 +12,7 @@ public class BetterFurnacesMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.initialize();
+		ModBlocks.initialize();
 
 		LOGGER.info("Better Furnaces Mod is initializing...");
 	}
